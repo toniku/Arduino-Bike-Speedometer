@@ -136,7 +136,7 @@ void pulse() {
   trip += wheelSize / 1000000;
 }
 
-//updateAllValues:  called at regular interval by MsTimer2
+//updateAllValues: called at regular interval by MsTimer2
 //                 calculates the instantaneous values (instantaneous speed, average...) based on the two last instant values.
 
 void updateAllValues() {
